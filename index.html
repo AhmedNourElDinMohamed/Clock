@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="clock">
+            <div class="hours"></div>
+            <div class="minute"></div>
+            <div class="second"></div>
+        </div>
+    </div>
+    
+
+    <div class="screen-clock">
+        <div class="screen">
+            <div id="hour"></div>
+            <span>:</span>
+            <div id="min"></div>
+            <span>:</span>
+            <div id="sec"></div>
+            <div id="time"></div>
+            <div class="mon">
+                <div id="month"></div>
+                <span>.</span>
+                <div id="year"></div>
+            </div>
+        </div>
+    </div>
+    <audio id="second-sound">
+        <source src="wall-clock-sound.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
